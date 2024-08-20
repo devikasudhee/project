@@ -1,0 +1,75 @@
+.calculator{
+    align-items: center;
+    justify-self:center;
+    margin-top: 10%;
+    margin-left: 700px;
+    border: 1px black solid;
+    height: 605px;
+    width: 25%;
+    box-shadow: rgb(36, 34, 34) 0px 2px 20px 10px;
+
+}
+.int{
+    border-style: none;
+    width: 400px;
+    /* background-color: */
+    height: 45px;
+    background-color:rgb(49, 32, 32);
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+   
+
+
+}
+.operator{
+    padding: 5px 10px;
+    font-size: medium;
+    background-color: rgb(12, 11, 11);
+    color: rgb(192, 151, 18);
+    border-radius: 16px;
+    border-style: none;
+    text-align: center;
+    /* box-shadow: rgb(23, 22, 22) 0px 2px 25px 10px; */
+    /* margin-left: 30px; */
+}
+.equalBtn{
+    border-style: none;
+    background-color: rgb(228, 68, 5);
+    border-radius: 16px;
+    color: #000;
+    /* margin-left: 30px; */
+    /* box-shadow: rgb(23, 22, 22) 0px 2px 25px 10px; */
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    border-style: none;
+    object-fit: cover;
+    /* box-shadow: rgb(23, 22, 22) 0px 2px 25px 10px;
+} */}
+.calculator button{
+    /* padding: 30px; */
+    height: 70px;
+    width:73px ;
+    margin: 12px 5px;
+    font-size: 30px;
+    /* margin-top: 55px; */
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.operator1{
+    background-color: black;
+    color: rgb(38, 222, 14);
+    border-radius: 16px;
+    border-style: none;
+    /* padding: 20px; */
+}
+.div1{
+    margin-top: 60px;
+  
+
+
+}
