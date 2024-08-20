@@ -1,0 +1,32 @@
+
+.custom-table {
+    width: 100%; 
+    border-collapse: collapse; /
+    margin-top:60px;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; /
+}
+
+.custom-table th {
+    background-color: #161414; 
+    color: rgb(235, 221, 221); 
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f9f9f9; /
+}
+
+.custom-table tr:hover {
+    background-color: #ddd; 
+}
+.nav{
+    width: 50px;
+    height: 80px;
+}
+.nav{
+    margin-top: -40px;
+}
