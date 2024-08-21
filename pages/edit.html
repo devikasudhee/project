@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Employee Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Edit Employee Data</h2>
+        <form id="edit-form">
+            <div class="mb-3">
+                <label for="emp-id" class="form-label">Emp ID</label>
+                <input type="text" class="form-control" id="emp-id" readonly>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="department" class="form-label">Department</label>
+                <input type="text" class="form-control" id="department" required>
+            </div>
+            <div class="mb-3">
+                <label for="salary" class="form-label">Salary</label>
+                <input type="text" class="form-control" id="salary" required>
+            </div>
+            <div class="mb-3">
+                <label for="experience" class="form-label">Experience</label>
+                <input type="text" class="form-control" id="experience" required>
+            </div>
+            <button type="submit" class="btn btn-success">DONE</button>
+        </form>
+    </div>
+
+    <script src="../js/edit.js"></script>
+</body>
+</html>

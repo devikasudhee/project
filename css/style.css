@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #4b0d53;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    width: 200px;
+    border-radius: 0;
+}
+
+.btn-outline-success {
+    border-radius: 0;
+}
+
+.btn-primary {
+    border-radius: 0;
+    background-color: #c77920;
+    border-color: #0b0c0e;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.container mt-5{
+    color: green;
+}
